@@ -3,9 +3,11 @@
 ## Introduction
 
 This demo uses Google Cloud Image Recognition to identify images.
+Using Cloud Vision script parse a group of images and ask Cloud Vision
+to detect Objects. 
 By passing a folder parameter extracts JPG or PNG images and contacts
 Image Recognition API service, extracts entities and writes into a file
-with the file name and the objects recognized.
+with the file name and the objects recognized for each image.
 
 Implements ThreadPoolExecutor to handle concurrent requests to API.
 
